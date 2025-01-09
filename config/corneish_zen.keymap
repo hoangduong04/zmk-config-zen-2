@@ -74,6 +74,11 @@
             bindings = <&sk RIGHT_CONTROL>;
             key-positions = <22 34>;
         };
+
+        switch-app-windows-mac {
+            bindings = <&kp LG(GRAVE)>;
+            key-positions = <4 3>;
+        };
     };
 
     keymap {
